@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './TodoApp.css';
 
+/**
+ * TodoApp function to manage a todo list.
+ *
+ * @return {JSX.Element} The JSX for the todo list component.
+ */
 function TodoApp() {
   // State to store tasks
   const [tasks, setTasks] = useState([]);
